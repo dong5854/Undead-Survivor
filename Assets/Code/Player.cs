@@ -6,8 +6,10 @@ using UnityEngine.InputSystem;
 public class Player : MonoBehaviour
 {
 
-    public Vector2 inputVec;
-    public float speed;
+    [SerializeField]
+    private Vector2 inputVec;
+    [SerializeField]
+    private float speed;
 
     private Rigidbody2D rigid;
 
