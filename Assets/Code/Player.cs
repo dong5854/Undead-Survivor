@@ -6,8 +6,7 @@ using UnityEngine.InputSystem;
 public class Player : MonoBehaviour
 {
 
-    [SerializeField]
-    private Vector2 inputVec;
+    public Vector2 inputVec { get; private set; }
     [SerializeField]
     private float speed;
 
